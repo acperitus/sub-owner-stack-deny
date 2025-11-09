@@ -5,7 +5,7 @@
 ## BLUF
 Creates/uses an Entra ID group:
 ```
-grp_{dept}-{aplha}-{env}_custom_sub_owners
+grp_{dept}-{alpha}-{env}_custom_sub_owners
 ```
 …then defines a **custom Owner-like role** — **Subscription Owner [Customer]** — that **cannot modify Azure Deployment Stacks**, and assigns it to that group at subscription scope. Optional **RBAC hardening** adds a **role-assignment condition** that prevents this group from granting/removing **Owner**, **User Access Administrator**, or **Role Based Access Control Administrator**.
 
