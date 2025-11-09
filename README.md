@@ -1,6 +1,6 @@
 # Subscription Owner [Customer] — No Stacks (Azure RBAC)
 **Author:** Andrew Clarke  
-**Version:** v0.1
+**Version:** v1.0
 
 ## BLUF
 Creates/uses an Entra ID group:
